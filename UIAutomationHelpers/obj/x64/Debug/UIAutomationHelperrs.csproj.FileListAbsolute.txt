@@ -1,0 +1,5 @@
+C:\Users\Rosen\Downloads\adorners\UIAutomationHelperrs\bin\x64\Debug\UIAutomationHelperrs.dll
+C:\Users\Rosen\Downloads\adorners\UIAutomationHelperrs\bin\x64\Debug\UIAutomationHelperrs.pdb
+C:\Users\Rosen\Downloads\adorners\UIAutomationHelperrs\obj\x64\Debug\UIAutomationHelperrs.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\UIAutomationHelperrs\obj\x64\Debug\UIAutomationHelperrs.dll
+C:\Users\Rosen\Downloads\adorners\UIAutomationHelperrs\obj\x64\Debug\UIAutomationHelperrs.pdb

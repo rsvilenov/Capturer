@@ -1,0 +1,9 @@
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\bin\Release\Capturer.Engine.AutoScroll.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\bin\Release\Capturer.Engine.AutoScroll.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\bin\Release\Capturer.Shared.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\bin\Release\WinApiHelpers.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\bin\Release\Capturer.Shared.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\bin\Release\WinApiHelpers.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\obj\Release\Capturer.Engine.AutoScroll.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\obj\Release\Capturer.Engine.AutoScroll.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.AutoScroll\obj\Release\Capturer.Engine.AutoScroll.pdb

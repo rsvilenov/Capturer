@@ -1,0 +1,10 @@
+C:\Users\Rosen\Downloads\adorners\Shared\bin\Debug\Shared.dll
+C:\Users\Rosen\Downloads\adorners\Shared\bin\Debug\Shared.pdb
+C:\Users\Rosen\Downloads\adorners\Shared\obj\Debug\Shared.dll
+C:\Users\Rosen\Downloads\adorners\Shared\obj\Debug\Shared.pdb
+C:\Users\rosen\Downloads\Capturer\Shared\bin\Debug\Shared.dll
+C:\Users\rosen\Downloads\Capturer\Shared\bin\Debug\Shared.pdb
+C:\Users\rosen\Downloads\Capturer\Shared\obj\Debug\Shared.csproj.CoreCompileInputs.cache
+C:\Users\rosen\Downloads\Capturer\Shared\obj\Debug\Shared.dll
+C:\Users\rosen\Downloads\Capturer\Shared\obj\Debug\Shared.pdb
+C:\Users\rosen\Downloads\Capturer\Shared\obj\Debug\Shared.csproj.AssemblyReference.cache

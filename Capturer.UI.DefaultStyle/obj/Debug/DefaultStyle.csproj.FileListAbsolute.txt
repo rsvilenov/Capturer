@@ -1,0 +1,10 @@
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\bin\Debug\DefaultStyle.dll
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\bin\Debug\DefaultStyle.pdb
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\Style.baml
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle_MarkupCompile.cache
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle.g.resources
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle.Properties.Resources.resources
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle.csproj.GenerateResource.Cache
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle.dll
+C:\Users\Rosen\Downloads\adorners\DefaultStyle\obj\Debug\DefaultStyle.pdb

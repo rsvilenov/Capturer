@@ -1,0 +1,10 @@
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture.Shared\bin\Debug\Capturer.Engine.ScreenCapture.Shared.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture.Shared\bin\Debug\Capturer.Engine.ScreenCapture.Shared.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture.Shared\obj\Debug\Capturer.Engine.ScreenCapture.Shared.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture.Shared\obj\Debug\Capturer.Engine.ScreenCapture.Shared.pdb
+C:\Users\rosen\Downloads\Capturer\Capturer.Engine.ScreenCapture.Shared\bin\Debug\Capturer.Engine.ScreenCapture.Shared.dll
+C:\Users\rosen\Downloads\Capturer\Capturer.Engine.ScreenCapture.Shared\bin\Debug\Capturer.Engine.ScreenCapture.Shared.pdb
+C:\Users\rosen\Downloads\Capturer\Capturer.Engine.ScreenCapture.Shared\obj\Debug\Capturer.Engine.ScreenCapture.Shared.csproj.CoreCompileInputs.cache
+C:\Users\rosen\Downloads\Capturer\Capturer.Engine.ScreenCapture.Shared\obj\Debug\Capturer.Engine.ScreenCapture.Shared.dll
+C:\Users\rosen\Downloads\Capturer\Capturer.Engine.ScreenCapture.Shared\obj\Debug\Capturer.Engine.ScreenCapture.Shared.pdb
+C:\Users\rosen\Downloads\Capturer\Capturer.Engine.ScreenCapture.Shared\obj\Debug\Capturer.Engine.ScreenCapture.Shared.csproj.AssemblyReference.cache

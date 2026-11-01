@@ -1,0 +1,5 @@
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\bin\x64\Debug\WinApiHelpers.dll
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\bin\x64\Debug\WinApiHelpers.pdb
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\obj\x64\Debug\WinApiHelpers.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\obj\x64\Debug\WinApiHelpers.dll
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\obj\x64\Debug\WinApiHelpers.pdb

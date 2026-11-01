@@ -1,0 +1,10 @@
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\bin\Release\Capturer.UI.DefaultStyle.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\bin\Release\Capturer.UI.DefaultStyle.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Style.baml
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle_MarkupCompile.cache
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle.g.resources
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle.Properties.Resources.resources
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle.csproj.GenerateResource.Cache
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.UI.DefaultStyle\obj\Release\Capturer.UI.DefaultStyle.pdb

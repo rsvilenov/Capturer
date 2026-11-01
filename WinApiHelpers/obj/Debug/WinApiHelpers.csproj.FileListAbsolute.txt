@@ -1,0 +1,15 @@
+C:\Users\Rosen\Desktop\ToolTipTest\WinApiHelpers\bin\Debug\WinApiHelpers.dll
+C:\Users\Rosen\Desktop\ToolTipTest\WinApiHelpers\bin\Debug\WinApiHelpers.pdb
+C:\Users\Rosen\Desktop\ToolTipTest\WinApiHelpers\obj\Debug\WinApiHelpers.dll
+C:\Users\Rosen\Desktop\ToolTipTest\WinApiHelpers\obj\Debug\WinApiHelpers.pdb
+C:\Users\Rosen\Desktop\ToolTipTest\WinApiHelpers\obj\Debug\WinApiHelpers.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\bin\Debug\WinApiHelpers.dll
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\bin\Debug\WinApiHelpers.pdb
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\obj\Debug\WinApiHelpers.dll
+C:\Users\Rosen\Downloads\adorners\WinApiHelpers\obj\Debug\WinApiHelpers.pdb
+C:\Users\rosen\Downloads\Capturer\WinApiHelpers\bin\Debug\WinApiHelpers.dll
+C:\Users\rosen\Downloads\Capturer\WinApiHelpers\bin\Debug\WinApiHelpers.pdb
+C:\Users\rosen\Downloads\Capturer\WinApiHelpers\obj\Debug\WinApiHelpers.csproj.CoreCompileInputs.cache
+C:\Users\rosen\Downloads\Capturer\WinApiHelpers\obj\Debug\WinApiHelpers.dll
+C:\Users\rosen\Downloads\Capturer\WinApiHelpers\obj\Debug\WinApiHelpers.pdb
+C:\Users\rosen\Downloads\Capturer\WinApiHelpers\obj\Debug\WinApiHelpers.csproj.AssemblyReference.cache

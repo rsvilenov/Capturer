@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5BF76F19-FF7F-4842-8F2E-CFAEC46EAD90}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestApp</RootNamespace>
+    <AssemblyName>TestApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\Microsoft.Expression.Interactions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Windows.Interactivity.WPF.2.0.20525\lib\net40\System.Windows.Interactivity.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SelectorWrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capturer.Engine.AutoScroll.Shared\Capturer.Engine.AutoScroll.Shared.csproj">
+      <Project>{140993BE-BA97-4670-BD13-7AB81F93C109}</Project>
+      <Name>Capturer.Engine.AutoScroll.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.Engine.AutoScroll\Capturer.Engine.AutoScroll.csproj">
+      <Project>{9F1F8174-C540-4E0D-9BBA-16FE76CB1418}</Project>
+      <Name>Capturer.Engine.AutoScroll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.Engine.ScreenAnalyzer.Shared\Capturer.Engine.ScreenAnalyzer.Shared.csproj">
+      <Project>{3618231B-0578-45CE-93E2-F742A4DD4538}</Project>
+      <Name>Capturer.Engine.ScreenAnalyzer.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.Engine.ScreenAnalyzer\Capturer.Engine.ScreenAnalyzer.csproj">
+      <Project>{9e84e24c-7042-4976-9621-5c4e027f2a2a}</Project>
+      <Name>Capturer.Engine.ScreenAnalyzer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.Engine.ScreenCapture.Shared\Capturer.Engine.ScreenCapture.Shared.csproj">
+      <Project>{68747127-07DA-4D81-8CE9-8C33629F8527}</Project>
+      <Name>Capturer.Engine.ScreenCapture.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.Engine.ScreenCapture\Capturer.Engine.ScreenCapture.csproj">
+      <Project>{10859690-9E92-49F1-836B-D6BF6AEDCD4B}</Project>
+      <Name>Capturer.Engine.ScreenCapture</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.Imaging\Capturer.Imaging.csproj">
+      <Project>{0501EFC5-A94C-4CAC-8298-D515CE5B56DB}</Project>
+      <Name>Capturer.Imaging</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.UI.DefaultStyle\Capturer.UI.DefaultStyle.csproj">
+      <Project>{5cf06369-da9c-4578-a18c-fa37b66cf7b6}</Project>
+      <Name>Capturer.UI.DefaultStyle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.UI.Input\Capturer.UI.Input.csproj">
+      <Project>{f900d475-dfd9-41c0-9a56-493bd8284f8b}</Project>
+      <Name>Capturer.UI.Input</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capturer.UI.Selector\Capturer.UI.Selector.csproj">
+      <Project>{088b66b2-1537-42c5-8094-b9d1cda5a425}</Project>
+      <Name>Capturer.UI.Selector</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <Project>{A992B93F-585C-4446-B2A4-6AB83930AF76}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UIAutomationHelpers\UIAutomationHelpers.csproj">
+      <Project>{bd8a6614-c335-4cca-8858-a4346373ed37}</Project>
+      <Name>UIAutomationHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WinApiHelpers\WinApiHelpers.csproj">
+      <Project>{5B11A758-687C-462A-89D5-EA8AF6EF113E}</Project>
+      <Name>WinApiHelpers</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,15 @@
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\Capturer.Engine.ScreenCapture.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\Capturer.Engine.ScreenCapture.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\Capturer.Shared.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\SharpDX.Direct3D11.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\SharpDX.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\SharpDX.DXGI.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\WinApiHelpers.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\Capturer.Shared.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\WinApiHelpers.pdb
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\SharpDX.xml
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\SharpDX.Direct3D11.xml
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\bin\Release\SharpDX.DXGI.xml
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\obj\Release\Capturer.Engine.ScreenCapture.csprojResolveAssemblyReference.cache
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\obj\Release\Capturer.Engine.ScreenCapture.dll
+C:\Users\Rosen\Downloads\adorners\Capturer.Engine.ScreenCapture\obj\Release\Capturer.Engine.ScreenCapture.pdb

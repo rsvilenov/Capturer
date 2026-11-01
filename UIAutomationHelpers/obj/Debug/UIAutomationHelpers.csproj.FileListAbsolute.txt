@@ -1,0 +1,6 @@
+C:\Users\rosen\Downloads\Capturer\UIAutomationHelpers\bin\Debug\UIAutomationHelperrs.dll
+C:\Users\rosen\Downloads\Capturer\UIAutomationHelpers\bin\Debug\UIAutomationHelperrs.pdb
+C:\Users\rosen\Downloads\Capturer\UIAutomationHelpers\obj\Debug\UIAutomationHelpers.csproj.CoreCompileInputs.cache
+C:\Users\rosen\Downloads\Capturer\UIAutomationHelpers\obj\Debug\UIAutomationHelperrs.dll
+C:\Users\rosen\Downloads\Capturer\UIAutomationHelpers\obj\Debug\UIAutomationHelperrs.pdb
+C:\Users\rosen\Downloads\Capturer\UIAutomationHelpers\obj\Debug\UIAutomationHelpers.csproj.AssemblyReference.cache

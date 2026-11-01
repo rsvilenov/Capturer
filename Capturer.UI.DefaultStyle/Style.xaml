@@ -1,0 +1,233 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    
+                    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+
+    <sys:Double x:Key="MAB_SelectionStrokeThickness">2</sys:Double>
+    <Thickness x:Key="MAB_SelectionRectangleMargin">-2</Thickness>
+    <DoubleCollection x:Key="MAB_StrokeDashArray">5</DoubleCollection>
+    <sys:Double x:Key="MAB_StrokeDashOffset">0</sys:Double>
+    <SolidColorBrush x:Key="MAB_Stroke">Orange</SolidColorBrush>
+
+    <sys:Double x:Key="SOB_SelectionStrokeThickness">1</sys:Double>
+    <Thickness x:Key="SOB_SelectionRectangleMargin">-1</Thickness>
+    <SolidColorBrush x:Key="SOB_Stroke">Orange</SolidColorBrush>
+
+    <SolidColorBrush x:Key="RH_BorderBrush">Orange</SolidColorBrush>
+    <SolidColorBrush x:Key="SI_BorderBrush">Orange</SolidColorBrush>
+
+    <Style x:Key="ButtonStyle_HorizontalAutoScroll" TargetType="Button">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsEnabled}" Value="False">
+                <DataTrigger.EnterActions>
+                    <BeginStoryboard x:Name="hsb">
+                        <Storyboard RepeatBehavior="Forever">
+                            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00">
+                                <SplineThicknessKeyFrame KeyTime="00:00:00.5" Value="-15,0,0,0" />
+                                <SplineThicknessKeyFrame KeyTime="0:0:1" Value="0,0,0,0" />
+                            </ThicknessAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </DataTrigger.EnterActions>
+                <DataTrigger.ExitActions>
+                    <RemoveStoryboard BeginStoryboardName="hsb"/>
+                </DataTrigger.ExitActions>
+            </DataTrigger>
+        </Style.Triggers>
+
+        <Setter Property="IsEnabled" Value="True" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate  TargetType="Button">
+                    <StackPanel Margin="10,0,0,0"  Orientation="Horizontal">
+                        <Grid>
+                            <Path Margin="-10,0,0,0" Width="20" Height="20" Stretch="Fill" Fill="Red" Data="F1 M 527.311,139.851L 499.019,120.735L 499.019,130.675L 464.611,130.675L 464.611,149.027L 499.019,149.027L 499.019,158.967L 527.311,139.851 Z "/>
+                            <Grid.RenderTransform>
+                                <ScaleTransform ScaleX="-1"/>
+                            </Grid.RenderTransform>
+                        </Grid>
+                        <Grid>
+                            <Path Width="20" Height="20" Stretch="Fill" Fill="Red" Data="F1 M 527.311,139.851L 499.019,120.735L 499.019,130.675L 464.611,130.675L 464.611,149.027L 499.019,149.027L 499.019,158.967L 527.311,139.851 Z "/>
+                        </Grid>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ButtonStyle_VerticalAutoScroll" TargetType="Button">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding RelativeSource={RelativeSource Self}, Path=IsEnabled}" Value="False">
+                <DataTrigger.EnterActions>
+                    <BeginStoryboard x:Name="vsb">
+                        <Storyboard RepeatBehavior="Forever">
+                            <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="Margin" BeginTime="00:00:00">
+                                <SplineThicknessKeyFrame KeyTime="00:00:00.5" Value="0, -10,0,0" />
+                                <SplineThicknessKeyFrame KeyTime="0:0:1" Value="0, 0,0,0" />
+                            </ThicknessAnimationUsingKeyFrames>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </DataTrigger.EnterActions>
+                <DataTrigger.ExitActions>
+                    <RemoveStoryboard BeginStoryboardName="vsb"/>
+                </DataTrigger.ExitActions>
+            </DataTrigger>
+        </Style.Triggers>
+        <Setter Property="IsEnabled" Value="True" />
+
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate  TargetType="Button">
+                    <StackPanel Orientation="Vertical">
+                        <Grid>
+                            <Path Width="20" Height="20" Stretch="Fill" Fill="Red" Data="F1 M 527.311,139.851L 499.019,120.735L 499.019,130.675L 464.611,130.675L 464.611,149.027L 499.019,149.027L 499.019,158.967L 527.311,139.851 Z "/>
+                            <Grid.LayoutTransform>
+                                <RotateTransform CenterX="0.5" CenterY="0.5" Angle="-90"/>
+                            </Grid.LayoutTransform>
+                        </Grid>
+                        <Grid>
+                            <Path Width="20" Height="20" Stretch="Fill" Fill="Red" Data="F1 M 527.311,139.851L 499.019,120.735L 499.019,130.675L 464.611,130.675L 464.611,149.027L 499.019,149.027L 499.019,158.967L 527.311,139.851 Z "/>
+                            <Grid.LayoutTransform>
+                                <RotateTransform CenterX="0.5" CenterY="0.5" Angle="90"/>
+                            </Grid.LayoutTransform>
+                        </Grid>
+                    </StackPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ContentControlStyle_MarchingAntsBorder" TargetType="ContentControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="ContentControl">
+                    <Grid>
+                        <Rectangle Margin="{DynamicResource MAB_SelectionRectangleMargin}"
+                            StrokeDashOffset="{DynamicResource MAB_StrokeDashOffset}" StrokeThickness="{DynamicResource MAB_SelectionStrokeThickness}" StrokeDashArray="{DynamicResource MAB_StrokeDashArray}"  Opacity="1"
+                Stroke="{DynamicResource MAB_Stroke}" Fill="#01000000" x:Name="selectionRect" >
+                            <Rectangle.Triggers>
+                                <EventTrigger RoutedEvent="Rectangle.Loaded">
+                                    <BeginStoryboard x:Name="antsStory">
+                                        <Storyboard>
+                                            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" 
+                               Storyboard.TargetName="selectionRect" 
+                               Storyboard.TargetProperty="(Shape.StrokeDashOffset)" 
+                               RepeatBehavior="Forever">
+                                                <SplineDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                                                <SplineDoubleKeyFrame KeyTime="00:00:00.5000000"
+                               Value="10"/>
+                                            </DoubleAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </BeginStoryboard>
+                                </EventTrigger>
+                                <!-- race condition - when I unload the style, this trigger tries to execute over the already inextant antStory-->
+                                <!--<EventTrigger RoutedEvent="Rectangle.Unloaded">
+                                    <StopStoryboard BeginStoryboardName="antsStory" />
+                                </EventTrigger>-->
+                            </Rectangle.Triggers>
+
+                        </Rectangle>
+
+                        <ContentPresenter />
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="ContentControlStyle_SolidBorder" TargetType="ContentControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate>
+                    <Grid>
+                        <Rectangle Margin="{DynamicResource SOB_SelectionRectangleMargin}"
+                             StrokeThickness="{DynamicResource SOB_SelectionStrokeThickness}" Opacity="1"
+                Stroke="{DynamicResource SOB_Stroke}" Fill="#01000000" >
+                            
+                        </Rectangle>
+
+                        <ContentPresenter />
+
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="Label_SizeIndicator" TargetType="Label">
+        <Setter Property="MinWidth" Value="80" />
+        <Setter Property="Width" Value="Auto" />
+        <Setter Property="MinHeight" Value="15" />
+        <Setter Property="Height" Value="Auto" />
+        <Setter Property="FontSize" Value="10" />
+        <Setter Property="Background" Value="Black" />
+        <Setter Property="Opacity" Value="1" />
+        <Setter Property="Foreground" Value="{DynamicResource SI_BorderBrush}" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Label">
+                    <Grid>
+                        <Border CornerRadius="3" 
+                                Opacity="0.6"
+                                Background="{TemplateBinding Background}">
+                        </Border>
+                        <!-- we want the content to be on top of the transparent border -->
+                        <ContentPresenter HorizontalAlignment="Center" Opacity="1" />
+                    </Grid>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+
+        <Style.Triggers>
+            <!-- we will use the IsEnabled property to set off the fade animation 
+            (we can't use Visibility here, because the fade out won't be possible,
+            as the control will already be collapsed at the time we start the animation)-->
+            <Trigger Property="IsEnabled" Value="True">
+                <Trigger.EnterActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                             From="0.0" To="1.0" Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.EnterActions>
+                <Trigger.ExitActions>
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetProperty="Opacity"
+                             From="1.0" To="0.0" Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </Trigger.ExitActions>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    
+    <Style x:Key="ThumbStyle_ResizeHandle" TargetType="Thumb">
+        <Setter Property="Height" Value="7" />
+        <Setter Property="Width" Value="7" />
+        <Setter Property="Opacity" Value="1" />
+        <Setter Property="SnapsToDevicePixels" Value="True" />
+        <Setter Property="OverridesDefaultStyle" Value="true" />
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Thumb">
+                    <Border BorderThickness="1" 
+                            BorderBrush="{DynamicResource RH_BorderBrush}"
+                            Opacity="1" 
+                            Height="{TemplateBinding Height}" 
+                            Width="{TemplateBinding Width}">
+                        <Grid
+                            Background="#01000000"
+                            HorizontalAlignment="Stretch" 
+                            VerticalAlignment="Stretch"
+                            Opacity="1" />
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+</ResourceDictionary>
